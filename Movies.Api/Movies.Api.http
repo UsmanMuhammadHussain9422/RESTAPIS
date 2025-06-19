@@ -1,0 +1,12 @@
+@rootURL = https://localhost:7076/api
+
+POST {{rootURL}}/movies/
+Content-Type: application/json
+{
+    "Title": "Nick the Greek",
+    "YearOfRelease": 2023,
+    "Genres": [
+        "Comedy"
+    ]
+}
+###

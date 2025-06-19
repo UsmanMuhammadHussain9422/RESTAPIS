@@ -1,0 +1,41 @@
+@rootURL = http://localhost:5112
+
+GET {{rootURL}}/weatherforecast/
+Accept: application/json
+
+
+###
+GET {{rootURL}}/books/
+Accept: application/json
+
+###
+GET {{rootURL}}/books/9
+Accept: application/json
+
+###
+
+POST {{rootURL}}/books
+Content-Type: application/json
+{
+    "title": "Title6",
+    "author": "Author6",
+    "Description": "Description6",
+    "yearPublished": 2026
+}
+
+###
+
+PUT {{rootURL}}/books/3
+Content-Type: application/json
+{
+    "id": 3,
+    "title": "The Cycle Of Life",
+    "author": "Usman",
+    "Description": "Wonderful",
+    "yearPublished": 2025
+}
+
+###
+
+DELETE {{rootURL}}/books/1
+Accept: application/json

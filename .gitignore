@@ -1,0 +1,33 @@
+# Visual Studio files
+.vs/
+
+# Binaries and build artifacts
+.bin/
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.user
+*.aps
+*.bsc
+*.ilk
+*.msi
+*.msp
+*.ncb
+*.sbr
+*.res
+*.suo
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Test results
+TestResults/
+
+# Other common ignore patterns
+node_modules/
+npm-debug.log
+yarn-error.log
