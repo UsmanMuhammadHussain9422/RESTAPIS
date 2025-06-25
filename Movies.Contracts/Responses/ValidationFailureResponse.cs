@@ -2,7 +2,7 @@
 {
     public class ValidationFailureResponse
     {
-        public IEnumerable<ValidationResponse> Errors { get; init; }
+        public IEnumerable<ValidationResponse>? Errors { get; init; }
     }
 
     public class ValidationResponse
